@@ -7,15 +7,15 @@
 4. **Props**:
    - Template: kebab-case
    - JavaScript: camelCase
-```
-<UserProfile user-name="John" />
-
-<script setup>
-defineProps<{ userName: string }>();
-</script>
-```
+   ```
+   <UserProfile user-name="John" />
+   
+   <script setup>
+   defineProps<{ userName: string }>();
+   </script>
+   ```
 5. **Emit Events**: kebab-case
 6. **Composables**: camelCase
-7. **Classes**: kebab-case
+7. **CSS Classes**: kebab-case
 8. **Environment Variables**: Uppercase (ALL CAPS)
 
