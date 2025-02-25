@@ -1,12 +1,12 @@
 # OpenTheDoor
 
 ## Vue 명명 규칙
-1. **Folder Names**: kebab-case
-2. **Component Names**: PascalCase
-3. **Methods**: camelCase
-4. **Props**:
-   - Template: kebab-case
-   - JavaScript: camelCase
+1. **폴더** | kebab-case
+2. **컴포넌트** | PascalCase
+3. **메소드** | camelCase
+4. **Props**
+   - 부모(Template) | kebab-case
+   - 자식(Script) | camelCase
    ```
    <UserProfile user-name="John" />
    
@@ -14,8 +14,8 @@
    defineProps<{ userName: string }>();
    </script>
    ```
-5. **Emit Events**: kebab-case
-6. **Composables**: camelCase
-7. **CSS Classes**: kebab-case
-8. **Environment Variables**: Uppercase (ALL CAPS)
+5. **Emit Events** | kebab-case
+6. **Composables** | camelCase
+7. **CSS 클래스** | kebab-case
+8. **환경변수** | 대문자
 
